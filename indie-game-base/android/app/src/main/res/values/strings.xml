@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">indie-game-base</string>
+    <string name="title_activity_main">indie-game-base</string>
+    <string name="package_name">de.hsos.wa</string>
+    <string name="custom_url_scheme">de.hsos.wa</string>
+</resources>
