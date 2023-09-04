@@ -1,7 +1,0 @@
-{
-  "name": "indie-game-base",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
