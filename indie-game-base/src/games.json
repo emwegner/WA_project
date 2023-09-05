@@ -2,6 +2,23 @@
   {
     "success": true,
     "data": {
+      "usedSoftware": [
+        {
+          "name": "XNA Game Studio",
+          "tags": ["Game Development Framework"],
+          "description": "Microsoft XNA is a freeware set of tools with a managed runtime environment provided by Microsoft that facilitates video game development and management."
+        },
+        {
+          "name": "Microsoft Paint",
+          "tags": ["Raster Graphics Editor"],
+          "description": "Paint is a simple raster graphics editor by Microsoft."
+        },
+        {
+          "name": "Reason",
+          "tags": ["Digital Audio Workstation"],
+          "description": "The music-making software with everything you need to create amazing music."
+        }
+      ],
       "type": "game",
       "name": "Stardew Valley",
       "steam_appid": 413150,
@@ -467,6 +484,24 @@
   {
     "success": true,
     "data": {
+      "usedSoftware": [
+        {
+          "name": "GameMaker: Studio",
+          "tags": ["Game Development Framework"],
+          "description": "Design your own computer games with a drag-and-drop event/action system, and introduce yourself to coding at your own pace."
+        },
+        {
+          "name": "Microsoft Paint",
+          "tags": ["Raster Graphics Editor"],
+          "description": "Paint is a simple raster graphics editor by Microsoft."
+        },
+        {
+          "name": "FL Studio",
+          "tags": ["Digital Audio Workstation"],
+          "description": "The music-making software with everything you need to create amazing music."
+        }
+      ],
+
       "type": "game",
       "name": "Undertale",
       "steam_appid": 391540,

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GameMaker: Studio",
+    "tags": ["Game Development Tool"],
+    "description": "Design your own computer games with a drag-and-drop event/action system, and introduce yourself to coding at your own pace."
+  },
+  {
+    "name": "Microsoft Paint",
+    "tags": ["Raster Graphics Editor"],
+    "description": "Paint is a simple raster graphics editor by Microsoft."
+  },
+  {
+    "name": "FL Studio",
+    "tags": ["Digital Audio Workstation"],
+    "description": "Professional DAW and beat making software covering all aspects of digital audio composition, mastering and editing."
+  },
+  {
+    "name": "Reason",
+    "tags": ["Digital Audio Workstation"],
+    "description": "The music-making software with everything you need to create amazing music."
+  }
+]

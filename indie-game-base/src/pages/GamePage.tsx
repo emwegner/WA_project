@@ -4,13 +4,18 @@ import {
   IonCardHeader,
   IonCardSubtitle,
   IonCardTitle,
+  IonChip,
+  IonCol,
   IonContent,
+  IonGrid,
   IonHeader,
   IonImg,
   IonItem,
   IonLabel,
   IonList,
   IonPage,
+  IonRow,
+  IonSegment,
   IonThumbnail,
   IonTitle,
   IonToolbar,
@@ -37,8 +42,28 @@ const GamePage: React.FC = () => {
           </IonCard>
         </IonHeader>
         <IonCard>
-          <IonCardContent>{game.data.name}</IonCardContent>
+          <IonCardContent>
+            <IonCardTitle>{game.data.name}</IonCardTitle>
+            <IonCardSubtitle>by {game.data.developers}</IonCardSubtitle>
+            <p>{game.data.short_description}</p>
+
+            <h3>Genres</h3>
+            {game.data.genres.map((genre) => (
+              <IonChip key={genre.id} outline={true} disabled>
+                {genre.description}
+              </IonChip>
+            ))}
+          </IonCardContent>
         </IonCard>
+        <IonGrid>
+          <IonRow>
+            {game.data.screenshots.map((screenshot) => (
+              <IonCol>
+                <IonImg src={screenshot.path_full} key={screenshot.id}></IonImg>
+              </IonCol>
+            ))}
+          </IonRow>
+        </IonGrid>
       </IonContent>
     );
   } else {
