@@ -1,5 +1,5 @@
 import {
-    IonActionSheet,
+    IonActionSheet, IonButton,
     IonCard,
     IonCardContent,
     IonCardHeader,
@@ -26,6 +26,8 @@ import {Swiper, SwiperSlide, useSwiper} from "swiper/react";
 
 import "./GamePage.css";
 
+import { Share } from '@capacitor/share';
+
 import Games from "../games.json";
 
 import {useParams} from "react-router";
@@ -34,6 +36,9 @@ import {camera, trash} from "ionicons/icons";
 import {usePhotoGallery, UserPhoto} from "../hooks/usePhotoGallery";
 
 import axios from 'axios';
+import "swiper/css";
+
+
 
 const GamePage: React.FC = () => {
 
@@ -43,9 +48,14 @@ const GamePage: React.FC = () => {
 
     const gameId = useParams<{ gameId: string }>().gameId;
 
-
-
-
+    async function shareContent() {
+        await Share.share({
+            title: 'See cool stuff',
+            text: 'Really awesome thing you need to see right meow',
+            url: 'http://ionicframework.com/',
+            dialogTitle: 'Share with buddies',
+        });
+    }
 
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
@@ -74,6 +84,8 @@ const GamePage: React.FC = () => {
         return <div>Loading...</div>;
     } else {
 
+
+
         const id = gameId;
 
         // @ts-ignore
@@ -89,6 +101,12 @@ const GamePage: React.FC = () => {
                             <IonImg src={game.data.header_image}></IonImg>
                         </IonCard>
                     </IonHeader>
+
+                    <IonButton>
+                        
+                        <IonIcon icon={camera} slot="icon-only" onClick={() => shareContent()}/>
+                    </IonButton>
+
                     <IonCard>
                         <IonCardContent>
                             <IonCardTitle>{game.data.name}</IonCardTitle>
@@ -113,6 +131,8 @@ const GamePage: React.FC = () => {
                         </IonCardContent>
                     </IonCard>
 
+                    <IonCard>
+
                     <Swiper
                         slidesPerView={1}
                     >
@@ -141,36 +161,7 @@ const GamePage: React.FC = () => {
                     </Swiper>
 
 
-                    <IonSegment>
-
-                        <IonTextarea></IonTextarea>
-                    </IonSegment>
-
-                    <Swiper
-                        slidesPerView={1}
-                    >
-                        {game.data.screenshots.map((screenshot) => (
-                            <SwiperSlide key={screenshot.id}>
-                                <IonImg src={screenshot.path_full} alt={screenshot.id.toString()}/>
-                            </SwiperSlide>
-                        ))}
-
-                        {photos.map((photo, index) => {
-
-                            console.table(photo)
-
-                            if (photo.filepath.includes(String(game.data.steam_appid))) {
-                                return (
-                                    <SwiperSlide key={index}>
-                                        <IonImg onClick={() => setPhotoToDelete(photo)} src={photo.webviewPath}/>
-                                    </SwiperSlide>
-                                );
-                            }
-
-
-                        })}
-
-                    </Swiper>
+                    </IonCard>
 
 
                     <IonFab vertical="bottom" horizontal="center" slot="fixed">
