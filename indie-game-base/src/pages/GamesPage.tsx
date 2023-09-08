@@ -38,15 +38,15 @@ const GamesPage: React.FC = () => {
             <IonList>
               {Games.map((game) => (
                 <IonItem
-                  routerLink={`/games/${game.data.steam_appid}`}
-                  key={game.data.steam_appid}
+                  routerLink={`/games/${game.steam_appid}`}
+                  key={game.steam_appid}
                 >
                   <IonThumbnail slot="start">
-                    <img alt={game.data.name} src={game.data.header_image} />
+                    <img alt={game.name} src={game.header_image} />
                   </IonThumbnail>
                   <IonLabel>
-                    <h2>{game.data.name}</h2>
-                    <p>{game.data.developers}</p>
+                    <h2>{game.name}</h2>
+                    <p>{game.developer}</p>
                   </IonLabel>
                 </IonItem>
               ))}

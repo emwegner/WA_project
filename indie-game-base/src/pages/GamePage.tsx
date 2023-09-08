@@ -80,6 +80,8 @@ const GamePage: React.FC = () => {
         const game =items[id];
 
         if (game) {
+            // @ts-ignore
+            // @ts-ignore
             return (
                 <IonContent fullscreen>
                     <IonHeader>
