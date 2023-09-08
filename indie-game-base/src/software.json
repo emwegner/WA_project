@@ -3,6 +3,11 @@
     "name": "GameMaker: Studio",
     "tags": ["Game Development Tool"],
     "description": "Design your own computer games with a drag-and-drop event/action system, and introduce yourself to coding at your own pace."
+    "alternatives": [
+      "Unity",
+      "Unreal Engine",
+      "Godot Engine"
+    ]
   },
   {
     "name": "Microsoft Paint",
@@ -18,5 +23,14 @@
     "name": "Reason",
     "tags": ["Digital Audio Workstation"],
     "description": "The music-making software with everything you need to create amazing music."
+  },
+  {
+    "name": "Blender",
+    "tags": ["3D Modeler", "Free", "Open Source"],
+    "description": "Design your own computer games with a drag-and-drop event/action system, and introduce yourself to coding at your own pace."
+    "alternatives": [
+      "Autodesk Maya",
+      "Cinema 4D"
+    ]
   }
 ]

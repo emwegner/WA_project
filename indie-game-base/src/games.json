@@ -501,7 +501,7 @@
           "description": "The music-making software with everything you need to create amazing music."
         }
       ],
-
+      "kickstarter": "https://www.kickstarter.com/projects/1002143342/undertale?lang=de",
       "type": "game",
       "name": "Undertale",
       "steam_appid": 391540,
