@@ -1,4 +1,5 @@
 import {
+  IonActionSheet,
   IonCard,
   IonCardContent,
   IonCardHeader,
@@ -6,9 +7,9 @@ import {
   IonCardTitle,
   IonChip,
   IonCol,
-  IonContent,
+  IonContent, IonFab, IonFabButton,
   IonGrid,
-  IonHeader,
+  IonHeader, IonIcon,
   IonImg,
   IonItem,
   IonLabel,
@@ -21,14 +22,25 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
+import { Swiper, SwiperSlide, useSwiper} from "swiper/react";
+
+import "./GamePage.css";
+
 import Games from "../games.json";
 
 import { useParams } from "react-router";
+import React, {useState} from "react";
+import {camera, trash} from "ionicons/icons";
+import {usePhotoGallery, UserPhoto} from "../hooks/usePhotoGallery";
 
 const GamePage: React.FC = () => {
+
+
+  const { deletePhoto, photos, takePhoto } = usePhotoGallery();
+  const [photoToDelete, setPhotoToDelete] = useState<UserPhoto>();
+
   const gameId = useParams<{ gameId: string }>().gameId;
 
-  // Find the game with the given id
   const game = Games.find((game) => game.data.steam_appid === Number(gameId));
 
   console.log(game?.data.name);
@@ -55,15 +67,67 @@ const GamePage: React.FC = () => {
             ))}
           </IonCardContent>
         </IonCard>
-        <IonGrid>
-          <IonRow>
-            {game.data.screenshots.map((screenshot) => (
-              <IonCol>
-                <IonImg src={screenshot.path_full} key={screenshot.id}></IonImg>
-              </IonCol>
+
+        <Swiper
+            slidesPerView={1}
+        >
+          {game.data.screenshots.map((screenshot) => (
+            <SwiperSlide key={screenshot.id}>
+                <IonImg src={screenshot.path_full} alt={screenshot.id.toString()} />
+            </SwiperSlide>
             ))}
-          </IonRow>
-        </IonGrid>
+
+          {photos.map((photo, index) => {
+
+            console.table(photo)
+
+            if (photo.filepath.includes(String(game.data.steam_appid))) {
+              return (
+                  <SwiperSlide key={index}>
+                    <IonImg onClick={() => setPhotoToDelete(photo)} src={photo.webviewPath} />
+                  </SwiperSlide>
+              );
+            }
+
+
+
+
+        })}
+
+
+        </Swiper>
+
+
+
+        <IonFab vertical="bottom" horizontal="center" slot="fixed">
+          <IonFabButton onClick={() => takePhoto(game.data.steam_appid)}>
+            <IonIcon icon={camera}></IonIcon>
+          </IonFabButton>
+        </IonFab>
+
+        <IonActionSheet
+            isOpen={!!photoToDelete}
+            buttons={[{
+              text: 'Delete',
+              role: 'destructive',
+              icon: trash,
+              handler: () => {
+                if (photoToDelete) {
+                  deletePhoto(photoToDelete);
+                  setPhotoToDelete(undefined);
+                }
+              }
+            }, {
+              text: 'Cancel',
+              icon: 'close',
+              role: 'cancel'
+            }]}
+            onDidDismiss={() => setPhotoToDelete(undefined)}
+        />
+
+
+
+
       </IonContent>
     );
   } else {
