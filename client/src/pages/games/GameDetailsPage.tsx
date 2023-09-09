@@ -54,7 +54,6 @@ const GameDetailsPage: React.FC = () => {
     const gameSoftwareJson = softwareJson.filter((software) => softwareUsed?.includes(software.name));
 
 
-
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
@@ -77,9 +76,25 @@ const GameDetailsPage: React.FC = () => {
     }, []); // The empty dependency array ensures this effect runs only once when the component mounts
 
     if (error) {
-        return <div>Error</div>;
+        return (
+            <IonPage>
+            <IonContent fullscreen>
+                <IonHeader>
+
+                </IonHeader>
+            </IonContent>
+        </IonPage>);
     } else if (!isLoaded) {
-        return <div>Loading...</div>;
+        return (
+
+            <IonPage>
+                <IonContent fullscreen>
+                    <IonHeader>
+
+                    </IonHeader>
+                </IonContent>
+            </IonPage>
+        )
     } else {
 
 
@@ -90,132 +105,137 @@ const GameDetailsPage: React.FC = () => {
         if (game && gameJson) {
 
             return (
-                <IonContent fullscreen>
-                    <IonHeader>
-                        <IonCard style={{height: "20vh"}}>
-                            <IonImg src={game.data.header_image}></IonImg>
-                        </IonCard>
-                    </IonHeader>
+                <IonPage>
+                    <IonContent fullscreen>
+                        <IonHeader>
+                            <IonCard style={{height: "20vh"}}>
+                                <IonImg src={game.data.header_image}></IonImg>
+                            </IonCard>
+                        </IonHeader>
 
-                    <IonCard>
-                        <IonCardContent>
-                            <IonCardTitle>{game.data.name}</IonCardTitle>
-                            <IonCardSubtitle>by {game.data.developers}</IonCardSubtitle>
-                            <p>{game.data.short_description}</p>
-
-
-                            <h3>Tags</h3>
-                            {gameJson.tags.map((tag) => (
-                                <IonRouterLink key={tag} href={`/games/filter/${tag}`}>
-                                    <IonChip key={tag} outline={true}>
-                                        {tag}
-                                    </IonChip>
-                                </IonRouterLink>
-                            ))}
-                        </IonCardContent>
-                    </IonCard>
-
-                    {gameJson.kickstarter_url && (
                         <IonCard>
                             <IonCardContent>
-                                <IonCardTitle>Kickstarter Campaign</IonCardTitle>
+                                <IonCardTitle>{game.data.name}</IonCardTitle>
+                                <IonCardSubtitle>by {game.data.developers}</IonCardSubtitle>
+                                <p>{game.data.short_description}</p>
 
+
+                                <h3>Tags</h3>
+                                {gameJson.tags.map((tag) => (
+                                    <IonRouterLink key={tag} href={`/games/filter/${tag}`}>
+                                        <IonChip key={tag} outline={true}>
+                                            {tag}
+                                        </IonChip>
+                                    </IonRouterLink>
+                                ))}
                             </IonCardContent>
                         </IonCard>
-                    )}
+
+                        {gameJson.kickstarter_url && (
+                            <IonCard>
+                                <IonCardContent>
+                                    <IonCardTitle>Kickstarter Campaign</IonCardTitle>
+
+                                </IonCardContent>
+                            </IonCard>
+                        )}
 
 
-                    <IonCard>
+                        <IonCard>
 
-                        <Swiper
-                            slidesPerView={1}
-                        >
-                            {game.data.screenshots.map((screenshot) => (
-                                <SwiperSlide key={screenshot.id}>
-                                    <IonImg src={screenshot.path_full} alt={screenshot.id.toString()}/>
-                                </SwiperSlide>
-                            ))}
-
-                            {photos.map((photo, index) => {
-
-                                console.table(photo)
-
-                                if (photo.filepath.includes(String(game.data.steam_appid))) {
-                                    return (
-                                        <SwiperSlide key={index}>
-                                            <IonImg onClick={() => setPhotoToDelete(photo)} src={photo.webviewPath}/>
-                                        </SwiperSlide>
-                                    );
-                                }
-
-
-                            })}
-
-
-                        </Swiper>
-
-
-                    </IonCard>
-
-                    <IonCard>
-                        <IonCardContent>
-                            <IonCardTitle>Software</IonCardTitle>
                             <Swiper
                                 slidesPerView={1}
                             >
-                                <IonCard>
+                                {game.data.screenshots.map((screenshot) => (
+                                    <SwiperSlide key={screenshot.id}>
+                                        <IonImg src={screenshot.path_full} alt={screenshot.id.toString()}/>
+                                    </SwiperSlide>
+                                ))}
 
-                                    {gameSoftwareJson.map((entry) => (
-                                        <SwiperSlide key={entry.id}>
-                                            <IonImg src={entry.thumbnail_url} alt={entry.name}/>
-                                        </SwiperSlide>
-                                    ))}
-                                </IonCard>
+                                {photos.map((photo, index) => {
+
+                                    console.table(photo)
+
+                                    if (photo.filepath.includes(String(game.data.steam_appid))) {
+                                        return (
+                                            <SwiperSlide key={index}>
+                                                <IonImg onClick={() => setPhotoToDelete(photo)}
+                                                        src={photo.webviewPath}/>
+                                            </SwiperSlide>
+                                        );
+                                    }
+
+
+                                })}
+
+
                             </Swiper>
-                        </IonCardContent>
-                    </IonCard>
 
 
-                    <IonFab vertical="bottom" horizontal="center" slot="fixed">
-                        <IonFabButton onClick={() => takePhoto(game.data.steam_appid)}>
-                            <IonIcon icon={camera}></IonIcon>
-                        </IonFabButton>
-                    </IonFab>
+                        </IonCard>
 
-                    <IonActionSheet
-                        isOpen={!!photoToDelete}
-                        buttons={[{
-                            text: 'Delete',
-                            role: 'destructive',
-                            icon: trash,
-                            handler: () => {
-                                if (photoToDelete) {
-                                    deletePhoto(photoToDelete);
-                                    setPhotoToDelete(undefined);
+                        <IonCard>
+                            <IonCardContent>
+                                <IonCardTitle>Software</IonCardTitle>
+                                <Swiper
+                                    slidesPerView={1}
+                                >
+                                    <IonCard>
+
+                                        {gameSoftwareJson.map((entry) => (
+                                            <SwiperSlide key={entry.id}>
+                                                <IonImg src={entry.thumbnail_url} alt={entry.name}/>
+                                            </SwiperSlide>
+                                        ))}
+                                    </IonCard>
+                                </Swiper>
+                            </IonCardContent>
+                        </IonCard>
+
+
+                        <IonFab vertical="bottom" horizontal="center" slot="fixed">
+                            <IonFabButton onClick={() => takePhoto(game.data.steam_appid)}>
+                                <IonIcon icon={camera}></IonIcon>
+                            </IonFabButton>
+                        </IonFab>
+
+                        <IonActionSheet
+                            isOpen={!!photoToDelete}
+                            buttons={[{
+                                text: 'Delete',
+                                role: 'destructive',
+                                icon: trash,
+                                handler: () => {
+                                    if (photoToDelete) {
+                                        deletePhoto(photoToDelete);
+                                        setPhotoToDelete(undefined);
+                                    }
                                 }
-                            }
-                        }, {
-                            text: 'Cancel',
-                            icon: 'close',
-                            role: 'cancel'
-                        }]}
-                        onDidDismiss={() => setPhotoToDelete(undefined)}
-                    />
+                            }, {
+                                text: 'Cancel',
+                                icon: 'close',
+                                role: 'cancel'
+                            }]}
+                            onDidDismiss={() => setPhotoToDelete(undefined)}
+                        />
 
 
-                </IonContent>
+                    </IonContent>
+                </IonPage>
             );
         } else {
-            <IonContent fullscreen>
-                <IonHeader>
-                    <IonTitle>Game not found!</IonTitle>
-                </IonHeader>
-                <IonCard>
-                    <IonCardContent></IonCardContent>
-                </IonCard>
-            </IonContent>;
+            return (
+                <IonPage>
+                    <IonContent fullscreen>
+                        <IonHeader>
+                            <IonTitle>Game not found!</IonTitle>
+                        </IonHeader>
+                        <IonCard>
+                            <IonCardContent></IonCardContent>
+                        </IonCard>
+                    </IonContent></IonPage>
+            );
         }
-        ;
 
 
     }
