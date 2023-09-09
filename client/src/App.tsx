@@ -32,10 +32,11 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
-import GameDetailsPage from "./pages/games/GameDetailsPage";
+
 import SoftwareFilterPage from "./pages/software/SoftwareFilterPage";
 import GameFilterPage from "./pages/games/GameFilterPage";
 import SoftwareDetailsPage from "./pages/software/SoftwareDetailsPage";
+import GameDetailsPage from "./pages/games/GameDetailsPage";
 
 setupIonicReact();
 
