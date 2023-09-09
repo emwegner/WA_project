@@ -1,0 +1,112 @@
+[
+  {
+    "steam_appid": 413150,
+    "name": "Stardew Valley",
+    "developer": "ConcernedApe",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg?t=1666917466",
+    "tags": [
+
+      "Farming",
+      "Simulation",
+      "Pixel-Graphics"
+    ],
+    "software_used": [
+      "XNA Game Studio",
+      "Paint.NET",
+      "Reason"
+    ]
+  },
+  {
+    "steam_appid": 391540,
+    "name": "Undertale",
+    "developer": "tobyfox",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg?t=1579096091",
+    "kickstarter_url": "https://www.kickstarter.com/projects/1002143342/undertale?lang=de",
+    "tags": [
+      "Crowdfunded",
+      "RPG",
+      "Pixel-Graphics"
+    ],
+    "software_used": [
+      "GameMaker",
+      "Paint.NET",
+      "FL Studio"
+    ]
+  },
+  {
+    "steam_appid": 504230,
+    "name": "Celeste",
+    "developer": "EXOK Games",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953",
+    "tags": [
+      "Platformer",
+      "Difficult",
+      "Pixel-Graphics"
+    ],
+    "software_used": [
+      "Aseprite",
+      "XNA Game Studio",
+      "Blender",
+      "Ableton Live"
+    ]
+  },
+  {
+    "steam_appid": 837470,
+    "name": "Untitled Goose Game",
+    "developer": "House House",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/837470/header.jpg?t=1687192333",
+    "tags": [
+      "Funny"
+    ],
+    "software_used": [
+      "Unity"
+    ]
+  },
+  {
+    "steam_appid": 367520,
+    "name": "Hollow Knight",
+    "developer": "Team Cherry",
+    "kickstarter_url": "https://www.kickstarter.com/projects/11662585/hollow-knight?lang=de",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028",
+    "tags": [
+      "Crowdfunded",
+      "Metroidvania",
+      "Platformer",
+      "Difficult"
+    ],
+    "software_used": [
+      "Unity"
+    ]
+  },
+  {
+    "steam_appid": 736260,
+    "name": "Baba is You",
+    "developer": "Hempuli Oy",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/736260/header.jpg?t=1656225237",
+    "tags": [
+      "Puzzle",
+      "Difficult"
+    ]
+  },
+  {
+    "steam_appid": 881100,
+    "name": "Noita",
+    "developer": "Nolla Games",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/881100/header.jpg?t=1675987871",
+    "tags": [
+      "Pixel-Graphics",
+      "Difficult"
+    ]
+  },
+  {
+    "steam_appid": 239030,
+    "name": "Papers, Please",
+    "developer": "Lucas Pope",
+    "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/239030/header.jpg?t=1678266428",
+    "tags": [
+      "Simulation",
+      "Puzzle"
+    ]
+  }
+
+]

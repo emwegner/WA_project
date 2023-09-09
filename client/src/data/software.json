@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Godot Engine",
+    "description": "Feature-packed 2D and 3D open source game engine.",
+    "thumbnail_url": "https://d4.alternativeto.net/QtZWnHelnl0h_wGsTn-t2tI8kGel-aQhNlju8KPxehA/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9nb2RvdC1lbmdpbmVfMTE4MjkzLnBuZw.png",
+    "tags": [
+      "game-engine",
+      "free",
+      "open-source"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Unity",
+    "description": "The multiplatform game creation tools for everyone.",
+    "thumbnail_url": "https://d4.alternativeto.net/_5sKaCfMhEF66yh8Z8MyBkoov80znyMVtsOmLExdOVc/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy91bml0eV8yMDc5MzcucG5n.png",
+    "tags": [
+      "game-engine",
+      "freemium",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Unreal Engine",
+    "description": "Unreal Engine is a professional suite of tools and technologies used for building high-quality games across a range of platforms.",
+    "thumbnail_url": "https://d4.alternativeto.net/Yfb2qdQSQe6UqHto24drlFK_9jD-rzOgMQq4sfIUeLc/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy91bnJlYWwtZW5naW5lXzIwMzI5My5wbmc.png",
+    "tags": [
+      "game-engine",
+      "freemium",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "XNA Game Studio",
+    "description": "Microsoft XNA is a freeware set of tools with a managed runtime environment provided by Microsoft that facilitates video game development and management.",
+    "thumbnail_url": "https://d4.alternativeto.net/z6GUvZVTH1_nhT1yEAIkQFw-GpDjTmVTDQLKMP6pr3U/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy94bmEtZ2FtZS1zdHVkaW8tZXhwcmVzc18xMDQ1Mi5wbmc.png",
+    "tags": [
+      "game-engine",
+      "freemium",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "GameMaker",
+    "description": "Game Maker is software program for Microsoft Windows meant to simplify computer game development.",
+    "thumbnail_url": "https://d4.alternativeto.net/fii4445f99jcCYvf56GIE9LEZ7Wck88S6HFsvfwCOvQ/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9nYW1lLW1ha2VyXzUwODYyLnBuZw.png",
+    "tags": [
+      "game-engine",
+      "freemium",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "FL Studio",
+    "description": "Professional DAW and beat making software covering all aspects of digital audio composition, mastering and editing.",
+    "thumbnail_url": "https://d4.alternativeto.net/CCRhWnghwgJOvRahmk5A7Hn3RQ_NXGDeIBCfNXv1Dv0/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9mbC1zdHVkaW9fMjEwNDI4LndlYnA.png",
+    "tags": [
+      "digital-audio-workstation",
+      "paid",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Reason",
+    "description": "The music-making software with everything you need to create amazing music.",
+    "thumbnail_url": "https://d4.alternativeto.net/_stMWeM53cTZ2snThS2xV_c95S7IwzCSOr--RJqMm1s/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9yZWFzb25fMTExNTI1LnBuZw.png",
+    "tags": [
+      "digital-audio-workstation",
+      "paid",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ableton Live",
+    "description": "Create, Finish, Perform.",
+    "thumbnail_url": "https://d4.alternativeto.net/3xHQKmZwfgLbFnWDhK4qluzMrPfdhR_s9JklLGPPKQg/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9hYmxldG9uLWxpdmVfMTY5NzM5LnBuZw.png",
+    "tags": [
+      "digital-audio-workstation",
+      "paid",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Aseprite",
+    "description": "Aseprite is a program by David Capello for creating animated sprites and pixel art.",
+    "thumbnail_url": "https://d4.alternativeto.net/je_9btRgVOhjNNagR1-xXhtDh1Ek6tbprXsAk8jE4qQ/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9hc2Vwcml0ZV84MDMxMC5wbmc.png",
+    "tags": [
+      "image-editor",
+      "paid",
+      "open-source"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Paint.NET",
+    "description": "Paint.net is a free and very capable image editing software for Windows. Great alternative to Photoshop for people that do not need all the stuff PS offers.",
+    "thumbnail_url": "https://d4.alternativeto.net/quwUuD7Dc_2cHQpGB_Gv0J8nA5HYWLYWugGdeX1afbA/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9wYWludG5ldF8xMDEwNzYucG5n.png",
+    "tags": [
+      "image-editor",
+      "free",
+      "proprietary"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Blender",
+    "description": "Blender is the free and open-source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and more.",
+    "thumbnail_url": "https://d4.alternativeto.net/pL4Xs9-d8SM86lg09WIKRkhD-UJ9IL_wt6EgMhm1zLo/rs:fill:140:140:0/g:ce:0:0/YWJzOi8vZGlzdC9pY29ucy9ibGVuZGVyXzk2NTQxLnBuZw.png",
+    "tags": [
+      "3d-modeler",
+      "free",
+      "open-source"
+    ]
+  }
+]
