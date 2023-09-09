@@ -42,6 +42,8 @@ import { usePhotoGallery, UserPhoto } from "../../hooks/usePhotoGallery";
 import axios from "axios";
 import "swiper/css";
 
+import "../../theme/Page.css"
+
 const GameDetailsPage: React.FC = () => {
   const { deletePhoto, photos, takePhoto } = usePhotoGallery();
   const [photoToDelete, setPhotoToDelete] = useState<UserPhoto>();
@@ -165,7 +167,9 @@ const GameDetailsPage: React.FC = () => {
                   <IonCard>
                     {gameSoftwareJson.map((entry) => (
                       <SwiperSlide key={entry.id}>
-                        <IonImg src={entry.thumbnail_url} alt={entry.name} />
+                        
+                        <IonImg class="softwareimg" src={entry.thumbnail_url} alt={entry.name} />
+                        
                       </SwiperSlide>
                     ))}
                   </IonCard>

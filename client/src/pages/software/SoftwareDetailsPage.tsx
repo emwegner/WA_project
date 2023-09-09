@@ -1,13 +1,19 @@
 import {
     IonCard,
     IonCardContent,
+    IonCardSubtitle,
+    IonCardTitle,
+    IonChip,
     IonContent,
     IonHeader,
+    IonImg,
     IonItem,
     IonLabel,
     IonList,
     IonPage,
-    IonThumbnail
+    IonRouterLink,
+    IonThumbnail,
+    IonTitle
 } from "@ionic/react";
 import softwareJson from "../../data/software.json";
 import gamesJson from "../../data/games.json";
@@ -27,15 +33,43 @@ const SoftwareDetailsPage: React.FC = () => {
     if (software) {
         return (
             <IonPage>
-                <IonContent fullscreen>
-                    <IonHeader> {software.name} </IonHeader>
-                    <IonCard>
-                        <IonCardContent>
+            <IonContent fullscreen>
+              <IonHeader>
+           
+              </IonHeader>
+  
+              <IonCard>
+                <IonCardContent>
+                  <IonCardTitle>{software.name}</IonCardTitle>
+                  <p>{software.description}</p>
+  
+                  <h3>Tags</h3>
+                  {software.tags.map((tag) => (
+                    <IonRouterLink key={tag} href={`/games/filter/${tag}`}>
+                      <IonChip key={tag} outline={true}>
+                        {tag}
+                      </IonChip>
+                    </IonRouterLink>
+                  ))}
 
-                        </IonCardContent>
-                    </IonCard>
-                </IonContent>
-            </IonPage>
+                <IonImg class="softwareimg"src={software.thumbnail_url} alt={software.name} />
+                <IonCard>
+                <IonImg class="softwareimages" src={software.screenshot_urls[0]} alt={software.name} />
+                </IonCard>
+                <IonCard>
+                <IonImg class="softwareimages" src={software.screenshot_urls[1]} alt={software.name} />
+                </IonCard>
+                <IonCard>
+                <IonImg class="softwareimages" src={software.screenshot_urls[2]} alt={software.name} />
+                </IonCard>
+    
+                </IonCardContent>
+              </IonCard>
+  
+  
+            </IonContent>
+          </IonPage>
+            
         )
     } else {
         return (

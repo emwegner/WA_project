@@ -37,6 +37,7 @@ import SoftwareFilterPage from "./pages/software/SoftwareFilterPage";
 import GameFilterPage from "./pages/games/GameFilterPage";
 import SoftwareDetailsPage from "./pages/software/SoftwareDetailsPage";
 import GameDetailsPage from "./pages/games/GameDetailsPage";
+import HomePage from './pages/home/HomePage';
 
 setupIonicReact();
 
@@ -63,11 +64,18 @@ const App: React.FC = () => (
           <Route path="/software/id/:id">
             <SoftwareDetailsPage />
           </Route>
+          <Route path="/home">
+            <HomePage/>
+          </Route>
           <Route exact path="/">
             <Redirect to="/games" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
+        <IonTabButton tab="home" href="/home">
+            <IonIcon aria-hidden="true" icon={triangle} />
+            <IonLabel>Home</IonLabel>
+          </IonTabButton>
           <IonTabButton tab="games" href="/games">
             <IonIcon aria-hidden="true" icon={triangle} />
             <IonLabel>Games</IonLabel>
