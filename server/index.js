@@ -14,11 +14,8 @@ app.get("/steamdata/:gameId", async (req, res) => {
     const response = await axios.get(url);
     const data = response.data;
 
-    console.log(data);
-
     res.json(data);
   } catch (error) {
-    console.error(error);
     res.status(500).send("Internal Server Error");
   }
 });
