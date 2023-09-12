@@ -48,7 +48,7 @@ const HomePage: React.FC = () => {
               <IonCard>
               
                 <IonImg
-                  class="home_images"
+                  class="home_image_left"
                   alt="Indie Games"
                   src="https://indieplanet.de/wp-content/uploads/2022/01/Top100-IndieGames-2022jpg.jpg"
                 />
@@ -65,7 +65,7 @@ const HomePage: React.FC = () => {
             <IonCol>
               <IonCard>
                 <IonImg
-                  class="home_images"
+                  class="home_image_right"
                   alt="Sofware"
                   src="https://cdn.akamai.steamstatic.com/steam/apps/431730/ss_46a7e00325c8e3b8cea2cfecc414a4b777827d8e.1920x1080.jpg?t=1689786907"
                 />

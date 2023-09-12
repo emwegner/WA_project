@@ -21,8 +21,8 @@ import gamesJson from "../../data/games.json";
 
 import { useParams } from "react-router";
 import { ProgramEntry } from "../../components/ProgramEntry";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';

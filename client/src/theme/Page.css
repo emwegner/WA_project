@@ -19,10 +19,16 @@
 
 }
 
-.home_images {
-    object-fit: cover;
-    height: 800px;
+.home_image_left {
+    width:85.5%;
 }
+
+
+.home_image_right {
+
+}
+
+
 
 
 
