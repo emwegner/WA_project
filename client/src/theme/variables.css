@@ -83,7 +83,7 @@ http://ionicframework.com/docs/theming/ */
    */
 
   body {
-    --ion-color-primary: #fa7e6d;
+    --ion-color-primary: rgb(250, 126, 109);
     --ion-color-primary-rgb: 66, 140, 255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -232,4 +232,5 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #27232a;
   }
+
 }

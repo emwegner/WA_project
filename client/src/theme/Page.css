@@ -14,7 +14,17 @@
 }
 
 .home_headerimg {
+    object-fit: cover;
+    float:top;
+
 }
+
+.home_images {
+    object-fit: cover;
+    height: 800px;
+}
+
+
 
 ion-button {
     margin-left:20px;
@@ -23,9 +33,30 @@ ion-button {
 .softwareimages{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width:50%;
-    height:50%;
+    width:60%;
+    height : 60%;
 }
+
+.gameimages{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    height : 70%;
+}
+.mySwiper {    
+
+}
+.bullet {
+    color:chocolate;
+
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fa7e6d !important;
+}
+
+.swiper-pagination-bullet{
+    background-color: #fa7e6d !important;
+}
+    
     

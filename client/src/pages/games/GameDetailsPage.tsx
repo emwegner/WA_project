@@ -44,6 +44,8 @@ import { usePhotoGallery, UserPhoto } from "../../hooks/usePhotoGallery";
 
 import axios from "axios";
 import "swiper/css";
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 import "../../theme/Page.css";
 import { ProgramEntry } from "../../components/ProgramEntry";
@@ -161,10 +163,17 @@ const GameDetailsPage: React.FC = () => {
                 <IonCardTitle>Screenshots</IonCardTitle>
               </IonListHeader>
 
-              <Swiper slidesPerView={1}>
+              <Swiper slidesPerView={1}
+                    pagination={{
+                      dynamicBullets: true,
+                      clickable: true,
+                    
+                    }}
+                    modules={[Pagination]}>
                 {game.screenshots.map((screenshot) => (
                   <SwiperSlide key={screenshot.id}>
                     <IonImg
+                    class="gameimages"
                       src={screenshot.path_full}
                       alt={screenshot.id.toString()}
                     />

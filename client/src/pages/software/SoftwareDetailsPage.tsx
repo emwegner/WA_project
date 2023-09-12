@@ -23,7 +23,11 @@ import { useParams } from "react-router";
 import { ProgramEntry } from "../../components/ProgramEntry";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
-import "swiper/css";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
+
+import "../../theme/Page.css";
 
 const SoftwareDetailsPage: React.FC = () => {
   const id = useParams<{ id: string }>().id;
@@ -69,10 +73,17 @@ const SoftwareDetailsPage: React.FC = () => {
               <IonCardTitle>Screenshots</IonCardTitle>
             </IonListHeader>
             <IonCardContent>
-              <Swiper slidesPerView={1}>
+              <Swiper slidesPerView={1}
+                  pagination={{
+                    dynamicBullets: true,
+                    clickable: true,
+                  
+                  }}
+                  modules={[Pagination]}
+                  className="mySwiper">
                 {software.screenshot_urls.map((screenshot) => (
                   <SwiperSlide key={screenshot}>
-                    <IonImg src={screenshot} alt={screenshot} />
+                    <IonImg src={screenshot} alt={screenshot} class="softwareimages" />
                   </SwiperSlide>
                 ))}
               </Swiper>
