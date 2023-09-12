@@ -29,14 +29,10 @@ const SoftwareDetailsPage: React.FC = () => {
   const id = useParams<{ id: string }>().id;
   const software = softwareJson.find((entry) => String(entry.id) === id);
 
-  // @ts-ignore
-  const usedInGames = gamesJson.filter((game) =>
-    game.software_used?.includes(software?.name)
-  );
-
-  console.log(usedInGames);
-
   if (software) {
+    const usedInGames = gamesJson.filter((game) =>
+      game.software_used?.includes(software.name)
+    );
     console.table(software);
 
     return (

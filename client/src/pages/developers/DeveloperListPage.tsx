@@ -19,7 +19,7 @@ const DeveloperListPage: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>All Games</IonTitle>
+          <IonTitle>All Developers</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
