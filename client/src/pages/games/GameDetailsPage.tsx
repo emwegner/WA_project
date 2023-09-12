@@ -18,6 +18,7 @@ import {
   IonItem,
   IonLabel,
   IonList,
+  IonListHeader,
   IonPage,
   IonRouterLink,
   IonRow,
@@ -33,6 +34,8 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 
 import gamesJson from "../../data/games.json";
 import softwareJson from "../../data/software.json";
+import steamDataJson from "../../data/steamdata.json";
+import deverloperJson from "../../data/developers.json";
 
 import { useParams } from "react-router";
 import React, { useEffect, useState } from "react";
@@ -42,7 +45,8 @@ import { usePhotoGallery, UserPhoto } from "../../hooks/usePhotoGallery";
 import axios from "axios";
 import "swiper/css";
 
-import "../../theme/Page.css"
+import "../../theme/Page.css";
+import { ProgramEntry } from "../../components/ProgramEntry";
 
 const GameDetailsPage: React.FC = () => {
   const { deletePhoto, photos, takePhoto } = usePhotoGallery();
@@ -52,7 +56,6 @@ const GameDetailsPage: React.FC = () => {
 
   const gameJson = gamesJson.find((game) => String(game.steam_appid) === id);
 
-  // get the list of software
   const softwareUsed = gameJson?.software_used;
 
   const gameSoftwareJson = softwareJson.filter((software) =>
@@ -64,9 +67,8 @@ const GameDetailsPage: React.FC = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    // Make a GET request to your Express.js server
     axios
-      .get("http://localhost:3000/steamdata/" + id) // Replace with your server URL
+      .get("http://localhost:3000/steamdata/" + id)
       .then((response) => {
         setIsLoaded(true);
         setItems(response.data);
@@ -75,17 +77,9 @@ const GameDetailsPage: React.FC = () => {
         setIsLoaded(true);
         setError(error);
       });
-  }, []); // The empty dependency array ensures this effect runs only once when the component mounts
+  }, []);
 
-  if (error) {
-    return (
-      <IonPage>
-        <IonContent fullscreen>
-          <IonHeader></IonHeader>
-        </IonContent>
-      </IonPage>
-    );
-  } else if (!isLoaded) {
+  if (!isLoaded) {
     return (
       <IonPage>
         <IonContent fullscreen>
@@ -93,48 +87,82 @@ const GameDetailsPage: React.FC = () => {
         </IonContent>
       </IonPage>
     );
+  }
+
+  let game;
+
+  if (error) {
+    for (let i = 0; i < steamDataJson.length; i++) {
+      if (String(steamDataJson[i].steam_appid) === id) {
+        console.log(steamDataJson[i].steam_appid);
+        game = steamDataJson[i];
+      }
+    }
   } else {
-    // @ts-ignore
-    const game = items[id];
+    game = items[id].data;
+  }
 
-    if (game && gameJson) {
-      return (
-        <IonPage>
-          <IonContent fullscreen>
-            <IonHeader>
-              <IonCard style={{ height: "20vh" }}>
-                <IonImg src={game.data.header_image}></IonImg>
-              </IonCard>
-            </IonHeader>
+  if (game && gameJson) {
+    let jsonDevelopers = [];
 
+    for (let i = 0; i < deverloperJson.length; i++) {
+      for (let j = 0; j < deverloperJson[i].games.length; j++) {
+        if (deverloperJson[i].games[j] === game.steam_appid) {
+          jsonDevelopers.push(deverloperJson[i]);
+        }
+      }
+    }
+
+    console.log(jsonDevelopers);
+
+    return (
+      <IonPage>
+        <IonContent fullscreen>
+          <IonHeader>
+            <IonCard style={{ height: "20vh" }}>
+              <IonImg src={game.header_image}></IonImg>
+            </IonCard>
+          </IonHeader>
+
+          <IonCard>
+            <IonCardHeader>
+              <IonCardTitle>{game.name}</IonCardTitle>
+              <IonCardSubtitle>by {game.developers}</IonCardSubtitle>
+            </IonCardHeader>
+
+            <IonCardContent>{game.short_description}</IonCardContent>
+            <IonCardContent>
+              {gameJson.tags.map((tag) => (
+                <IonRouterLink key={tag} href={`/games/filter/${tag}`}>
+                  <IonChip key={tag} outline={true}>
+                    {tag}
+                  </IonChip>
+                </IonRouterLink>
+              ))}
+            </IonCardContent>
+          </IonCard>
+
+          {gameJson.kickstarter_url && (
             <IonCard>
               <IonCardContent>
-                <IonCardTitle>{game.data.name}</IonCardTitle>
-                <IonCardSubtitle>by {game.data.developers}</IonCardSubtitle>
-                <p>{game.data.short_description}</p>
-
-                <h3>Tags</h3>
-                {gameJson.tags.map((tag) => (
-                  <IonRouterLink key={tag} href={`/games/filter/${tag}`}>
-                    <IonChip key={tag} outline={true}>
-                      {tag}
-                    </IonChip>
-                  </IonRouterLink>
-                ))}
+                <IonCardTitle>Kickstarter Campaign</IonCardTitle>
+                <IonCardSubtitle>
+                  <a href={gameJson.kickstarter_url}>
+                    Click here to go to the Kickstarter Campaign
+                  </a>
+                </IonCardSubtitle>
               </IonCardContent>
             </IonCard>
+          )}
 
-            {gameJson.kickstarter_url && (
-              <IonCard>
-                <IonCardContent>
-                  <IonCardTitle>Kickstarter Campaign</IonCardTitle>
-                </IonCardContent>
-              </IonCard>
-            )}
+          <IonCard>
+            <IonCardContent>
+              <IonListHeader>
+                <IonCardTitle>Screenshots</IonCardTitle>
+              </IonListHeader>
 
-            <IonCard>
               <Swiper slidesPerView={1}>
-                {game.data.screenshots.map((screenshot) => (
+                {game.screenshots.map((screenshot) => (
                   <SwiperSlide key={screenshot.id}>
                     <IonImg
                       src={screenshot.path_full}
@@ -144,9 +172,7 @@ const GameDetailsPage: React.FC = () => {
                 ))}
 
                 {photos.map((photo, index) => {
-                  console.table(photo);
-
-                  if (photo.filepath.includes(String(game.data.steam_appid))) {
+                  if (photo.filepath.includes(String(game.steam_appid))) {
                     return (
                       <SwiperSlide key={index}>
                         <IonImg
@@ -158,70 +184,83 @@ const GameDetailsPage: React.FC = () => {
                   }
                 })}
               </Swiper>
-            </IonCard>
+            </IonCardContent>
+          </IonCard>
 
+          {jsonDevelopers.length > 0 && (
             <IonCard>
-              <IonCardContent>
-                <IonCardTitle>Software</IonCardTitle>
-                <Swiper slidesPerView={1}>
-                  <IonCard>
-                    {gameSoftwareJson.map((entry) => (
-                      <SwiperSlide key={entry.id}>
-                        
-                        <IonImg class="softwareimg" src={entry.thumbnail_url} alt={entry.name} />
-                        
-                      </SwiperSlide>
-                    ))}
-                  </IonCard>
-                </Swiper>
-              </IonCardContent>
+              <IonList>
+                <IonListHeader>
+                  <IonCardTitle>Developed by</IonCardTitle>
+                </IonListHeader>
+                {jsonDevelopers.map((developer) => {
+                  return (
+                    <ProgramEntry
+                      path="/developers/id/"
+                      id={developer.id}
+                      is_active={true}
+                      title={developer.name}
+                      description={`alias ${developer.professional_name}`}
+                      image_url={developer.profile_image}
+                    />
+                  );
+                })}
+              </IonList>
             </IonCard>
+          )}
 
-            <IonFab vertical="bottom" horizontal="center" slot="fixed">
-              <IonFabButton onClick={() => takePhoto(game.data.steam_appid)}>
-                <IonIcon icon={camera}></IonIcon>
-              </IonFabButton>
-            </IonFab>
-
-            <IonActionSheet
-              isOpen={!!photoToDelete}
-              buttons={[
-                {
-                  text: "Delete",
-                  role: "destructive",
-                  icon: trash,
-                  handler: () => {
-                    if (photoToDelete) {
-                      deletePhoto(photoToDelete);
-                      setPhotoToDelete(undefined);
-                    }
-                  },
-                },
-                {
-                  text: "Cancel",
-                  icon: "close",
-                  role: "cancel",
-                },
-              ]}
-              onDidDismiss={() => setPhotoToDelete(undefined)}
-            />
-          </IonContent>
-        </IonPage>
-      );
-    } else {
-      return (
-        <IonPage>
-          <IonContent fullscreen>
-            <IonHeader>
-              <IonTitle>Game not found!</IonTitle>
-            </IonHeader>
+          {gameSoftwareJson.length > 0 && (
             <IonCard>
-              <IonCardContent></IonCardContent>
+              <IonList>
+                <IonListHeader>
+                  <IonCardTitle>Software used for {gameJson.name}</IonCardTitle>
+                </IonListHeader>
+                {gameSoftwareJson.map((entry) => (
+                  <ProgramEntry
+                    key={entry.id}
+                    path="/software/id/"
+                    id={entry.id}
+                    is_active={true}
+                    title={entry.name}
+                    description={entry.description}
+                    image_url={entry.thumbnail_url}
+                  />
+                ))}
+              </IonList>
             </IonCard>
-          </IonContent>
-        </IonPage>
-      );
-    }
+          )}
+
+          <IonFab vertical="bottom" horizontal="center" slot="fixed">
+            <IonFabButton onClick={() => takePhoto(game.steam_appid)}>
+              <IonIcon icon={camera}></IonIcon>
+            </IonFabButton>
+          </IonFab>
+
+          <IonActionSheet
+            isOpen={!!photoToDelete}
+            buttons={[
+              {
+                text: "Delete",
+                role: "destructive",
+                icon: trash,
+                handler: () => {
+                  if (photoToDelete) {
+                    deletePhoto(photoToDelete);
+                    setPhotoToDelete(undefined);
+                  }
+                },
+              },
+              {
+                text: "Cancel",
+                icon: "close",
+                role: "cancel",
+              },
+            ]}
+            onDidDismiss={() => setPhotoToDelete(undefined)}
+          />
+        </IonContent>
+      </IonPage>
+    );
   }
 };
 

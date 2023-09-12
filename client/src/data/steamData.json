@@ -1,0 +1,844 @@
+[
+  {
+    "type": "game",
+    "name": "Stardew Valley",
+    "steam_appid": 413150,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "dlc": [440820],
+    "detailed_description": "Stardew Valley is an open-ended country-life RPG! <br><br> <img src=\"https://cdn.akamai.steamstatic.com/steam/apps/413150/extras/animalStrip2.png?t=1666917466\" /><br><br>You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!<br><br><strong>Features </strong><br><ul class=\"bb_ul\"><li><strong>Turn your overgrown field into a lively farm!  </strong> Raise animals, grow crops, start an orchard, craft useful machines, and more! You'll have plenty of space to create the farm of your dreams. <br><br></li><li><strong>4 Player Farming!</strong> Invite 1-3 players to join you in the valley online! Players can work together to build a thriving farm, share resources, and improve the local community.  As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience.<br><br></li><li><strong>Improve your skills over time. </strong> As you make your way from a struggling greenhorn to a master farmer, you'll level up in 5 different areas: farming, mining, combat, fishing, and foraging. As you progress, you'll learn new cooking and crafting recipes, unlock new areas to explore, and customize your skills by choosing from a variety of professions. <br><br></li><li><strong>Become part of the local community. </strong> With over 30 unique characters living in Stardew Valley, you won't have a problem finding new friends! Each person has their own daily schedule, birthday, unique mini-cutscenes, and new things to say throughout the week and year. As you make friends with them, they will open up to you, ask you for help with their personal troubles, or tell you their secrets! Take part in seasonal festivals such as the luau, haunted maze, and feast of the winter star. <br><br></li><li><strong>Explore a vast, mysterious cave. </strong> As you travel deeper underground, you'll encounter new and dangerous monsters, powerful weapons, new environments, valuable gemstones, raw materials for crafting and upgrading tools, and mysteries to be uncovered. <br><br></li><li><strong>Breathe new life into the valley.</strong> Since JojaMart opened, the old way of life in Stardew Valley has changed. Much of the town's infrastructure has fallen into disrepair. Help restore Stardew Valley to it's former glory by repairing the old community center, or take the alternate route and join forces with Joja Corporation.<br><br></li><li><strong>Court and marry a partner to share your life on the farm with. </strong> There are 12 available bachelors and bachelorettes to woo, each with unique character progression cutscenes. Once married, your partner will live on the farm with you. Who knows, maybe you'll have kids and start a family?<br><br></li><li><strong>Spend a relaxing afternoon at one of the local fishing spots. </strong> The waters are teeming with seasonal varieties of delicious fish. Craft bait, bobbers, and crab pots to help you in your journey toward catching every fish and becoming a local legend! <br><br></li><li><strong>Donate artifacts and minerals to the local museum. </strong><br><br></li><li><strong>Cook delicious meals and craft useful items to help you out.  </strong>With over 100 cooking and crafting recipes, you'll have a wide variety of items to create. Some dishes you cook will even give you temporary boosts to skills, running speed, or combat prowess. Craft useful objects like scarecrows, oil makers, furnaces, or even the rare and expensive crystalarium. <br><br></li><li><strong>Customize the appearance of your character and house. </strong> With hundreds of decorative items to choose from, you'll have no trouble creating the home of your dreams!<br><br></li><li><strong>Xbox controller support (with rumble)! (Keyboard still required for text input) </strong><br><br></li><li><strong>Over two hours of original music. </strong></li></ul>",
+    "about_the_game": "Stardew Valley is an open-ended country-life RPG! <br><br> <img src=\"https://cdn.akamai.steamstatic.com/steam/apps/413150/extras/animalStrip2.png?t=1666917466\" /><br><br>You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!<br><br><strong>Features </strong><br><ul class=\"bb_ul\"><li><strong>Turn your overgrown field into a lively farm!  </strong> Raise animals, grow crops, start an orchard, craft useful machines, and more! You'll have plenty of space to create the farm of your dreams. <br><br></li><li><strong>4 Player Farming!</strong> Invite 1-3 players to join you in the valley online! Players can work together to build a thriving farm, share resources, and improve the local community.  As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience.<br><br></li><li><strong>Improve your skills over time. </strong> As you make your way from a struggling greenhorn to a master farmer, you'll level up in 5 different areas: farming, mining, combat, fishing, and foraging. As you progress, you'll learn new cooking and crafting recipes, unlock new areas to explore, and customize your skills by choosing from a variety of professions. <br><br></li><li><strong>Become part of the local community. </strong> With over 30 unique characters living in Stardew Valley, you won't have a problem finding new friends! Each person has their own daily schedule, birthday, unique mini-cutscenes, and new things to say throughout the week and year. As you make friends with them, they will open up to you, ask you for help with their personal troubles, or tell you their secrets! Take part in seasonal festivals such as the luau, haunted maze, and feast of the winter star. <br><br></li><li><strong>Explore a vast, mysterious cave. </strong> As you travel deeper underground, you'll encounter new and dangerous monsters, powerful weapons, new environments, valuable gemstones, raw materials for crafting and upgrading tools, and mysteries to be uncovered. <br><br></li><li><strong>Breathe new life into the valley.</strong> Since JojaMart opened, the old way of life in Stardew Valley has changed. Much of the town's infrastructure has fallen into disrepair. Help restore Stardew Valley to it's former glory by repairing the old community center, or take the alternate route and join forces with Joja Corporation.<br><br></li><li><strong>Court and marry a partner to share your life on the farm with. </strong> There are 12 available bachelors and bachelorettes to woo, each with unique character progression cutscenes. Once married, your partner will live on the farm with you. Who knows, maybe you'll have kids and start a family?<br><br></li><li><strong>Spend a relaxing afternoon at one of the local fishing spots. </strong> The waters are teeming with seasonal varieties of delicious fish. Craft bait, bobbers, and crab pots to help you in your journey toward catching every fish and becoming a local legend! <br><br></li><li><strong>Donate artifacts and minerals to the local museum. </strong><br><br></li><li><strong>Cook delicious meals and craft useful items to help you out.  </strong>With over 100 cooking and crafting recipes, you'll have a wide variety of items to create. Some dishes you cook will even give you temporary boosts to skills, running speed, or combat prowess. Craft useful objects like scarecrows, oil makers, furnaces, or even the rare and expensive crystalarium. <br><br></li><li><strong>Customize the appearance of your character and house. </strong> With hundreds of decorative items to choose from, you'll have no trouble creating the home of your dreams!<br><br></li><li><strong>Xbox controller support (with rumble)! (Keyboard still required for text input) </strong><br><br></li><li><strong>Over two hours of original music. </strong></li></ul>",
+    "short_description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "supported_languages": "English, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese, French, Italian, Hungarian, Korean, Turkish",
+    "reviews": "“Far more than just a farming game, this one-man labor of love is filled with seemingly endless content and heart.”<br>5/5 – <a href=\"https://steamcommunity.com/linkfilter/?url=http://www.giantbomb.com/reviews/stardew-valley-review/1900-739/\" target=\"_blank\" rel=\" noopener\"  >Giant Bomb</a><br><br>“The core mechanics and relaxing aesthetic merge so well together that players will sink in to the experience and never want to leave.”<br>95 – <a href=\"http://www.destructoid.com/review-stardew-valley-345495.phtml#post\" target=\"_blank\" rel=\"\"  >Destructoid</a><br><br>“Stardew Valley has been the most rich and heartwarming experience I’ve had in a game in years.”<br>95 – <a href=\"https://steamcommunity.com/linkfilter/?url=http://www.cgmagonline.com/reviews/stardew-valley-pc-review/\" target=\"_blank\" rel=\" noopener\"  >CGMagazine</a><br>",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg?t=1666917466",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_231x87.jpg?t=1666917466",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_184x69.jpg?t=1666917466",
+    "website": "http://www.stardewvalley.net",
+    "pc_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows Vista or greater<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 256 mb video memory, shader model 3.0+<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+    },
+    "mac_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OSX 10.10+<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 256 mb video memory, OpenGL 2<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+    },
+    "linux_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04 LTS<br></li><li><strong>Processor:</strong> 2 Ghz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 256 mb video memory, OpenGL 2<br></li><li><strong>Storage:</strong> 500 MB available space</li></ul>"
+    },
+    "developers": ["ConcernedApe"],
+    "publishers": ["ConcernedApe"],
+    "price_overview": {
+      "currency": "CAD",
+      "initial": 1699,
+      "final": 1699,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "CDN$ 16.99"
+    },
+    "packages": [82712],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Stardew Valley",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false",
+        "subs": [
+          {
+            "packageid": 82712,
+            "percent_savings_text": " ",
+            "percent_savings": 0,
+            "option_text": "Stardew Valley - CDN$ 16.99",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 1699
+          }
+        ]
+      }
+    ],
+    "platforms": { "windows": true, "mac": true, "linux": true },
+    "metacritic": {
+      "score": 89,
+      "url": "https://www.metacritic.com/game/pc/stardew-valley?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [
+      { "id": 2, "description": "Single-player" },
+      { "id": 1, "description": "Multi-player" },
+      { "id": 9, "description": "Co-op" },
+      { "id": 38, "description": "Online Co-op" },
+      { "id": 48, "description": "LAN Co-op" },
+      { "id": 39, "description": "Shared/Split Screen Co-op" },
+      { "id": 24, "description": "Shared/Split Screen" },
+      { "id": 22, "description": "Steam Achievements" },
+      { "id": 28, "description": "Full controller support" },
+      { "id": 29, "description": "Steam Trading Cards" },
+      { "id": 23, "description": "Steam Cloud" },
+      { "id": 41, "description": "Remote Play on Phone" },
+      { "id": 42, "description": "Remote Play on Tablet" },
+      { "id": 44, "description": "Remote Play Together" }
+    ],
+    "genres": [
+      { "id": "23", "description": "Indie" },
+      { "id": "3", "description": "RPG" },
+      { "id": "28", "description": "Simulation" }
+    ],
+    "screenshots": [
+      {
+        "id": 0,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 1,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 2,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 3,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 4,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_10628b4a811c0a925a1433d4323f78c7017dbbe4.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_10628b4a811c0a925a1433d4323f78c7017dbbe4.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 5,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 6,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_a3ddf22cda3bd722df77dbdd58dbec393906b654.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_a3ddf22cda3bd722df77dbdd58dbec393906b654.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 7,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_30aeedc47e731232ade368831a598d6545346f70.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_30aeedc47e731232ade368831a598d6545346f70.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 8,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_64d942a86eb527ac817f30cc04406796860a6fc1.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_64d942a86eb527ac817f30cc04406796860a6fc1.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 9,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_37f15ea893ec1fa7c9e73106f512e98161bac61b.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_37f15ea893ec1fa7c9e73106f512e98161bac61b.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 10,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_5e327e4cfc49d8137f8014e728eae3c0e6be2dca.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_5e327e4cfc49d8137f8014e728eae3c0e6be2dca.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 11,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_980472fb4f4860639155880938b6ec292a0648c4.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_980472fb4f4860639155880938b6ec292a0648c4.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 12,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_f79d2066dfaf32bbe87868d36db4845f771eddbd.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_f79d2066dfaf32bbe87868d36db4845f771eddbd.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 13,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_4ff3fe6e9555052aaa076866407b0ba68fe73132.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_4ff3fe6e9555052aaa076866407b0ba68fe73132.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 14,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_dee23745da417d2ceb0b16d9238bddbf5e227138.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_dee23745da417d2ceb0b16d9238bddbf5e227138.1920x1080.jpg?t=1666917466"
+      },
+      {
+        "id": 15,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_f6f4c727570d753b2b5d8da6af4e0c38fe489059.600x338.jpg?t=1666917466",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_f6f4c727570d753b2b5d8da6af4e0c38fe489059.1920x1080.jpg?t=1666917466"
+      }
+    ],
+    "movies": [
+      {
+        "id": 256660296,
+        "name": "Stardew Valley Trailer",
+        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256660296/movie.293x165.jpg?t=1454099186",
+        "webm": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256660296/movie480.webm?t=1454099186",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256660296/movie_max.webm?t=1454099186"
+        },
+        "mp4": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256660296/movie480.mp4?t=1454099186",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256660296/movie_max.mp4?t=1454099186"
+        },
+        "highlight": true
+      }
+    ],
+    "recommendations": { "total": 506607 },
+    "achievements": {
+      "total": 40,
+      "highlighted": [
+        {
+          "name": "Greenhorn",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/dac82a85ceb1493bb2155d41890b4a6099f5eaa5.jpg"
+        },
+        {
+          "name": "Cowpoke",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/2a5c84271214a05435ea1c7a60bacc1cbbc5fa5a.jpg"
+        },
+        {
+          "name": "Homesteader",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/b81de530e1de874a4add0b690d372df3ffc44ea2.jpg"
+        },
+        {
+          "name": "Millionaire",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg"
+        },
+        {
+          "name": "Legend",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/0db49d4d468db3597bdbbd5c42296de05b02dc5d.jpg"
+        },
+        {
+          "name": "A Complete Collection",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/2ea2e98c122084b05cc8a0b60bf8c08050a10cfb.jpg"
+        },
+        {
+          "name": "A New Friend",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/73b81a2c4c59bfdf3d87bab03cb2932b4953fe18.jpg"
+        },
+        {
+          "name": "Best Friends",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/da975460e6ca17e1cf397d598d4eb9c65502f786.jpg"
+        },
+        {
+          "name": "The Beloved Farmer",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/c0330b9f16d6491c4ac9569270d9edce2ce3cd7a.jpg"
+        },
+        {
+          "name": "Cliques",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/413150/dafe0ceff688bebb1c8554cbfa478e9826eb7074.jpg"
+        }
+      ]
+    },
+    "release_date": { "coming_soon": false, "date": "26 Feb, 2016" },
+    "support_info": { "url": "", "email": "support@stardewvalley.net" },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/413150/page_bg_generated_v6b.jpg?t=1666917466",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/413150/page_bg_generated.jpg?t=1666917466",
+    "content_descriptors": { "ids": [], "notes": null }
+  },
+  {
+    "type": "game",
+    "name": "Undertale",
+    "steam_appid": 391540,
+    "required_age": 0,
+    "is_free": false,
+    "dlc": [391570],
+    "detailed_description": "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. <br><br><i>((Healthy Dog's Warning: Game contains imagery that may be harmful to players with photosensitive epilepsy or similar condition.))</i><h2 class=\"bb_tag\">features:</h2><br><ul class=\"bb_ul\"><li> Killing is unnecessary: negotiate out of danger using the unique battle system.<br></li><li> Time your attacks for extra damage, then dodge enemy attacks in a style reminiscent of top-down shooters.<br></li><li> Original art and soundtrack brimming with personality.<br></li><li> Soulful, character-rich story with an emphasis on humor.<br></li><li> Created mostly by one person. <br></li><li> Become friends with all of the bosses!<br></li><li> At least 5 dogs.<br></li><li> You can date a skeleton.<br></li><li> Hmmm... now there are 6 dogs...?<br></li><li> Maybe you won't want to date the skeleton.<br></li><li> I thought I found a 7th dog, but it was actually just the 3rd dog.<br></li><li> If you play this game, can you count the dogs for me...? I'm not good at it.</li></ul>",
+    "about_the_game": "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. <br><br><i>((Healthy Dog's Warning: Game contains imagery that may be harmful to players with photosensitive epilepsy or similar condition.))</i><h2 class=\"bb_tag\">features:</h2><br><ul class=\"bb_ul\"><li> Killing is unnecessary: negotiate out of danger using the unique battle system.<br></li><li> Time your attacks for extra damage, then dodge enemy attacks in a style reminiscent of top-down shooters.<br></li><li> Original art and soundtrack brimming with personality.<br></li><li> Soulful, character-rich story with an emphasis on humor.<br></li><li> Created mostly by one person. <br></li><li> Become friends with all of the bosses!<br></li><li> At least 5 dogs.<br></li><li> You can date a skeleton.<br></li><li> Hmmm... now there are 6 dogs...?<br></li><li> Maybe you won't want to date the skeleton.<br></li><li> I thought I found a 7th dog, but it was actually just the 3rd dog.<br></li><li> If you play this game, can you count the dogs for me...? I'm not good at it.</li></ul>",
+    "short_description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+    "supported_languages": "English, Japanese",
+    "reviews": "“The puzzles aren't particularly impressive.”<br>10/10 – <a href=\"http://www.destructoid.com/review-undertale-312265.phtml\" target=\"_blank\" rel=\"\"  >Destructoid</a><br><br>“I have a couple of issues with the user interface.”<br>10/10 – <a href=\"https://steamcommunity.com/linkfilter/?url=http://www.pcinvasion.com/undertale-review\" target=\"_blank\" rel=\" noopener\"  >PCInvasion</a><br><br>“If there’s a criticism to be had, it’s that sometimes Toby Fox doesn’t know when to let a joke go.”<br>10/10 – <a href=\"https://steamcommunity.com/linkfilter/?url=http://www.thejimquisition.com/2015/09/undertale-review-a-determined-effort/\" target=\"_blank\" rel=\" noopener\"  >The Jimquisition</a><br>",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg?t=1579096091",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/391540/capsule_231x87.jpg?t=1579096091",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/391540/capsule_184x69.jpg?t=1579096091",
+    "website": "http://undertale.com",
+    "pc_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP, Vista, 7, 8, or 10<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 128MB<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+      "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP, Vista, 7, or 10<br></li><li><strong>Processor:</strong> 2GHz+<br></li><li><strong>Memory:</strong> 3 GB RAM<br></li><li><strong>Graphics:</strong> 512MB<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>"
+    },
+    "mac_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+      "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>"
+    },
+    "linux_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> If you can run other games on Steam, it's probably OK<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>",
+      "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14+<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Storage:</strong> 200 MB available space</li></ul>"
+    },
+    "legal_notice": "Undertale (C) Toby Fox 2015-2017",
+    "developers": ["tobyfox"],
+    "publishers": ["tobyfox"],
+    "price_overview": {
+      "currency": "EUR",
+      "initial": 999,
+      "final": 999,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "9,99€"
+    },
+    "packages": [74780, 77550],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Undertale",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false",
+        "subs": [
+          {
+            "packageid": 74780,
+            "percent_savings_text": " ",
+            "percent_savings": 0,
+            "option_text": "Undertale - 9,99€",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 999
+          },
+          {
+            "packageid": 77550,
+            "percent_savings_text": " ",
+            "percent_savings": 0,
+            "option_text": "Undertale - Game + Soundtrack Bundle - 17,99€",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 1799
+          }
+        ]
+      }
+    ],
+    "platforms": { "windows": true, "mac": true, "linux": true },
+    "metacritic": {
+      "score": 92,
+      "url": "https://www.metacritic.com/game/pc/undertale?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [
+      { "id": 2, "description": "Single-player" },
+      { "id": 29, "description": "Steam Trading Cards" },
+      { "id": 41, "description": "Remote Play on Phone" },
+      { "id": 42, "description": "Remote Play on Tablet" }
+    ],
+    "genres": [
+      { "id": "23", "description": "Indie" },
+      { "id": "3", "description": "RPG" }
+    ],
+    "screenshots": [
+      {
+        "id": 0,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_6ded97a2c98473ac1e8a2b3c1419d93fb31b1186.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_6ded97a2c98473ac1e8a2b3c1419d93fb31b1186.1920x1080.jpg?t=1579096091"
+      },
+      {
+        "id": 1,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_b9018c41cea2bdfb150609bedfca99b16a5af02a.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_b9018c41cea2bdfb150609bedfca99b16a5af02a.1920x1080.jpg?t=1579096091"
+      },
+      {
+        "id": 2,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_b9ec4c53a8ed37f764649c970757c0a1f4948ec1.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_b9ec4c53a8ed37f764649c970757c0a1f4948ec1.1920x1080.jpg?t=1579096091"
+      },
+      {
+        "id": 3,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_edab41f7c9fa287b0d90ebfa3b9219fec6e1b3ed.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_edab41f7c9fa287b0d90ebfa3b9219fec6e1b3ed.1920x1080.jpg?t=1579096091"
+      },
+      {
+        "id": 4,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_a11393d4b437ca75c10521f6baf53fbba9006f0f.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_a11393d4b437ca75c10521f6baf53fbba9006f0f.1920x1080.jpg?t=1579096091"
+      },
+      {
+        "id": 5,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_85d6f0db4b5d6207534120c4b51e37dfd2f8dd83.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_85d6f0db4b5d6207534120c4b51e37dfd2f8dd83.1920x1080.jpg?t=1579096091"
+      },
+      {
+        "id": 6,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_9025a366676c26046b1d08e94ab1a73406aa11db.600x338.jpg?t=1579096091",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/391540/ss_9025a366676c26046b1d08e94ab1a73406aa11db.1920x1080.jpg?t=1579096091"
+      }
+    ],
+    "movies": [
+      {
+        "id": 256655616,
+        "name": "UNDERTALE Trailer",
+        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256655616/movie.293x165.jpg?t=1447377566",
+        "webm": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256655616/movie480.webm?t=1447377566",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256655616/movie_max.webm?t=1447377566"
+        },
+        "mp4": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256655616/movie480.mp4?t=1447377566",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256655616/movie_max.mp4?t=1447377566"
+        },
+        "highlight": true
+      }
+    ],
+    "recommendations": { "total": 182800 },
+    "release_date": { "coming_soon": false, "date": "15 Sep, 2015" },
+    "support_info": {
+      "url": "http://undertale.com",
+      "email": "undertalegame@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/391540/page_bg_generated_v6b.jpg?t=1579096091",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/391540/page.bg.jpg?t=1579096091",
+    "content_descriptors": { "ids": [], "notes": null }
+  },
+
+  {
+    "type": "game",
+    "name": "Celeste",
+    "steam_appid": 504230,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "dlc": [1092840],
+    "detailed_description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight, hand-crafted platformer from the creators of multiplayer classic TowerFall.<br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/504230/extras/mountain.png?t=1684953953\" /><br><br><ul class=\"bb_ul\"><li>A narrative-driven, single-player adventure like mom used to make, with a charming cast of characters and a touching story of self-discovery<br></li><li>A massive mountain teeming with 700+ screens of hardcore platforming challenges and devious secrets<br></li><li>Brutal B-side chapters to unlock, built for only the bravest mountaineers<br></li><li>IGF “Excellence in Audio” finalist, with over 2 hours of original music led by dazzling live piano and catchy synth beats<br></li><li>Pie</li></ul>The controls are simple and accessible - simply jump, air-dash, and climb - but with layers of expressive depth to master, where every death is a lesson. Lightning-fast respawns keep you climbing as you uncover the mysteries of the mountain and brave its many perils. <br><br><i>This is it, Madeline. Just breathe. You can do this.</i><br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/504230/extras/characters.png?t=1684953953\" /><br><br><a href=\"https://store.steampowered.com/app/1092840/Celeste_Soundtrack/\" target=\"_blank\" rel=\"\"  ><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/504230/extras/cassette.png?t=1684953953\" /></a>",
+    "about_the_game": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight, hand-crafted platformer from the creators of multiplayer classic TowerFall.<br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/504230/extras/mountain.png?t=1684953953\" /><br><br><ul class=\"bb_ul\"><li>A narrative-driven, single-player adventure like mom used to make, with a charming cast of characters and a touching story of self-discovery<br></li><li>A massive mountain teeming with 700+ screens of hardcore platforming challenges and devious secrets<br></li><li>Brutal B-side chapters to unlock, built for only the bravest mountaineers<br></li><li>IGF “Excellence in Audio” finalist, with over 2 hours of original music led by dazzling live piano and catchy synth beats<br></li><li>Pie</li></ul>The controls are simple and accessible - simply jump, air-dash, and climb - but with layers of expressive depth to master, where every death is a lesson. Lightning-fast respawns keep you climbing as you uncover the mysteries of the mountain and brave its many perils. <br><br><i>This is it, Madeline. Just breathe. You can do this.</i><br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/504230/extras/characters.png?t=1684953953\" /><br><br><a href=\"https://store.steampowered.com/app/1092840/Celeste_Soundtrack/\" target=\"_blank\" rel=\"\"  ><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/504230/extras/cassette.png?t=1684953953\" /></a>",
+    "short_description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Portuguese - Brazil, Russian, Simplified Chinese",
+    "reviews": "“Celeste is a surprise masterpiece.”<br>10 / 10 – <a href=\"http://ca.ign.com/articles/2018/01/25/celeste-review\" target=\"_blank\" rel=\"\"  >IGN</a><br><br>“This is an essential gaming experience.”<br>10 / 10 – <a href=\"https://www.destructoid.com/review-celeste-484157.phtml\" target=\"_blank\" rel=\"\"  >Destructoid</a><br><br>“[Celeste] is truly a game for everyone.”<br>Recommended – <a href=\"https://steamcommunity.com/linkfilter/?url=http://www.eurogamer.net/articles/2018-01-25-celeste-review\" target=\"_blank\" rel=\" noopener\"  >Eurogamer</a><br>",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/504230/header.jpg?t=1684953953",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/504230/capsule_231x87.jpg?t=1684953953",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/504230/capsule_184x69.jpg?t=1684953953",
+    "website": "http://www.celestegame.com",
+    "pc_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7 or newer<br></li><li><strong>Processor:</strong> Intel Core i3 M380<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Intel HD 4000<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 1200 MB available space</li></ul>"
+    },
+    "mac_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Lion 10.7.5, 32/64-bit<br></li><li><strong>Processor:</strong> Intel Core i3 M380<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.0+ (2.1 with ARB extensions acceptable)<br></li><li><strong>Storage:</strong> 1200 MB available space</li></ul>"
+    },
+    "linux_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> glibc 2.17+, 32/64-bit<br></li><li><strong>Processor:</strong> Intel Core i3 M380<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> OpenGL 3.0+ (2.1 with ARB extensions acceptable)<br></li><li><strong>Storage:</strong> 1200 MB available space</li></ul>"
+    },
+    "developers": ["Maddy Makes Games Inc.", "Extremely OK Games, Ltd."],
+    "publishers": ["Maddy Makes Games Inc."],
+    "price_overview": {
+      "currency": "EUR",
+      "initial": 1999,
+      "final": 1999,
+      "discount_percent": 0,
+      "initial_formatted": "",
+      "final_formatted": "19,99€"
+    },
+    "packages": [116049, 290176],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Celeste",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false",
+        "subs": [
+          {
+            "packageid": 116049,
+            "percent_savings_text": " ",
+            "percent_savings": 0,
+            "option_text": "Celeste - 19,99€",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 1999
+          },
+          {
+            "packageid": 290176,
+            "percent_savings_text": " ",
+            "percent_savings": 0,
+            "option_text": "Celeste - Commercial License - 19,99€",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 1999
+          }
+        ]
+      }
+    ],
+    "platforms": { "windows": true, "mac": true, "linux": true },
+    "metacritic": {
+      "score": 88,
+      "url": "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [
+      { "id": 2, "description": "Single-player" },
+      { "id": 22, "description": "Steam Achievements" },
+      { "id": 28, "description": "Full controller support" },
+      { "id": 29, "description": "Steam Trading Cards" },
+      { "id": 23, "description": "Steam Cloud" },
+      { "id": 41, "description": "Remote Play on Phone" },
+      { "id": 42, "description": "Remote Play on Tablet" },
+      { "id": 43, "description": "Remote Play on TV" }
+    ],
+    "genres": [
+      { "id": "1", "description": "Action" },
+      { "id": "25", "description": "Adventure" },
+      { "id": "23", "description": "Indie" }
+    ],
+    "screenshots": [
+      {
+        "id": 0,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_1ad297c2044cdcf450ee83e56350cafb590da755.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_1ad297c2044cdcf450ee83e56350cafb590da755.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 1,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_03bfe6bd5ddac7f747c8d2aa1a4f82cfd53c6dcb.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_03bfe6bd5ddac7f747c8d2aa1a4f82cfd53c6dcb.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 2,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_4b0f0222341b64a37114033aca9994551f27c161.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_4b0f0222341b64a37114033aca9994551f27c161.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 3,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_1012b11ad364ad6c138a25a654108de28de56c5f.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_1012b11ad364ad6c138a25a654108de28de56c5f.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 4,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_832ef0f27c3d6efdaa4b5d1cc896dce0999bc9e8.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_832ef0f27c3d6efdaa4b5d1cc896dce0999bc9e8.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 5,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_1098b655a622720cfd549b104736a4eca8948100.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_1098b655a622720cfd549b104736a4eca8948100.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 6,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_0eab901ec5c364aa18225fa608ff9cbcc1f432bf.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_0eab901ec5c364aa18225fa608ff9cbcc1f432bf.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 7,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_3140f6f87aa74c20e142c36d74691f930eda88d5.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_3140f6f87aa74c20e142c36d74691f930eda88d5.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 8,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_e0159d08620e917e632788c960d9593e5e7f431c.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_e0159d08620e917e632788c960d9593e5e7f431c.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 9,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_152d7e5459c7d6d676ab837abe4355907757ae2d.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_152d7e5459c7d6d676ab837abe4355907757ae2d.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 10,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_726b2d2cd47cfd785c1aed73d65509037c822495.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_726b2d2cd47cfd785c1aed73d65509037c822495.1920x1080.jpg?t=1684953953"
+      },
+      {
+        "id": 11,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_a110fe2f50c5828af4b1ff4e7c1ca773a1a7e5aa.600x338.jpg?t=1684953953",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/504230/ss_a110fe2f50c5828af4b1ff4e7c1ca773a1a7e5aa.1920x1080.jpg?t=1684953953"
+      }
+    ],
+    "movies": [
+      {
+        "id": 256706951,
+        "name": "Launch",
+        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256706951/movie.293x165.jpg?t=1516898311",
+        "webm": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256706951/movie480.webm?t=1516898311",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256706951/movie_max.webm?t=1516898311"
+        },
+        "mp4": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256706951/movie480.mp4?t=1516898311",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256706951/movie_max.mp4?t=1516898311"
+        },
+        "highlight": true
+      }
+    ],
+    "recommendations": { "total": 72345 },
+    "achievements": {
+      "total": 32,
+      "highlighted": [
+        {
+          "name": "Celeste",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/f8563120e18b88ff7e31b03ff6fcb61c5553b1ac.jpg"
+        },
+        {
+          "name": "Forsaken",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/6d16bf0629b862295a62b2d92ab22a94dc593903.jpg"
+        },
+        {
+          "name": "Archaeology",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/7544829d732b63de52eb0e68c796a68e8153c26f.jpg"
+        },
+        {
+          "name": "Checking Out",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/7e202a373754eac26194d75d6ba82e7fcc48ea42.jpg"
+        },
+        {
+          "name": "Breathe",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/fc3f2ae7d42ce92886c166aff6e9868b6dd9c518.jpg"
+        },
+        {
+          "name": "In the Mirror",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/902474b484af5d94aeaa22d74e3559c47e94beec.jpg"
+        },
+        {
+          "name": "Reflection",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/82f006e8c91ec81c8af98f7e5c59ad2ea1f8b0b1.jpg"
+        },
+        {
+          "name": "Strawberry Badge",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/64cffde21bf6fba1d3749e751a5772765f95357c.jpg"
+        },
+        {
+          "name": "Strawberry Medal",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/0e3b7b3e990ea0e212df36054e31521d29da21ca.jpg"
+        },
+        {
+          "name": "Impress Your Friends",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504230/9b043fec21f1028d306f0908b401c86d8869c334.jpg"
+        }
+      ]
+    },
+    "release_date": { "coming_soon": false, "date": "25 Jan, 2018" },
+    "support_info": {
+      "url": "http://www.celestegame.com",
+      "email": "contact.celestegame@gmail.com"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/504230/page_bg_generated_v6b.jpg?t=1684953953",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/504230/page.bg.jpg?t=1684953953",
+    "content_descriptors": { "ids": [], "notes": null }
+  },
+  {
+    "type": "game",
+    "name": "Untitled Goose Game",
+    "steam_appid": 837470,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "It's a lovely morning in the village and you are a horrible goose.<br><br>Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day.<h2 class=\"bb_tag\">Featuring:</h2><ul class=\"bb_ul\"><li>A horrible goose (that's you)<br></li><li>A town full of people just trying to get on with their day (you hate them)<br></li><li>A dedicated honk button (!!!)</li></ul><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/837470/extras/chase600.png?t=1687192333\" /><h2 class=\"bb_tag\">AND ALSO</h2>Oh dear! Two horrible geese!<br><br>You can now enjoy Untitled Goose Game with a friend, in a new two-player cooperative mode. Play through the whole game as two horrible geese, honking twice as much, teaming up to plan pranks, and generally ruining everyone's day, together.<br><br><ul class=\"bb_ul\"><li>A free update for all owners of Untitled Goose Game<br></li><li>Play through the entire game with two players<br></li><li>New goose, new honk, still horrible</li></ul><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/837470/extras/cooppile600.png?t=1687192333\" />",
+    "about_the_game": "It's a lovely morning in the village and you are a horrible goose.<br><br>Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day.<h2 class=\"bb_tag\">Featuring:</h2><ul class=\"bb_ul\"><li>A horrible goose (that's you)<br></li><li>A town full of people just trying to get on with their day (you hate them)<br></li><li>A dedicated honk button (!!!)</li></ul><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/837470/extras/chase600.png?t=1687192333\" /><h2 class=\"bb_tag\">AND ALSO</h2>Oh dear! Two horrible geese!<br><br>You can now enjoy Untitled Goose Game with a friend, in a new two-player cooperative mode. Play through the whole game as two horrible geese, honking twice as much, teaming up to plan pranks, and generally ruining everyone's day, together.<br><br><ul class=\"bb_ul\"><li>A free update for all owners of Untitled Goose Game<br></li><li>Play through the entire game with two players<br></li><li>New goose, new honk, still horrible</li></ul><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/837470/extras/cooppile600.png?t=1687192333\" />",
+    "short_description": "It's a lovely morning in the village and you are a horrible goose.",
+    "supported_languages": "English, French, Italian, German, Spanish - Spain, Japanese, Simplified Chinese, Korean, Polish, Portuguese - Brazil, Russian, Czech, Dutch, Turkish",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/837470/header.jpg?t=1687192333",
+    "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/837470/capsule_231x87.jpg?t=1687192333",
+    "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/837470/capsule_184x69.jpg?t=1687192333",
+    "website": "https://goose.game",
+    "pc_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 7 SP1 64-Bit<br></li><li><strong>DirectX:</strong> Version 10<br></li><li><strong>Storage:</strong> 830 MB available space</li></ul>",
+      "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+    },
+    "mac_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> macOS 10.12<br></li><li><strong>Storage:</strong> 833 MB available space</li></ul>",
+      "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+    },
+    "linux_requirements": {
+      "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>",
+      "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+    },
+    "legal_notice": "© 2019-2020 House House in cooperation with Panic",
+    "developers": ["House House"],
+    "publishers": ["Panic"],
+    "price_overview": {
+      "currency": "CAD",
+      "initial": 2279,
+      "final": 1139,
+      "discount_percent": 50,
+      "initial_formatted": "CDN$ 22.79",
+      "final_formatted": "CDN$ 11.39"
+    },
+    "packages": [261136],
+    "package_groups": [
+      {
+        "name": "default",
+        "title": "Buy Untitled Goose Game",
+        "description": "",
+        "selection_text": "Select a purchase option",
+        "save_text": "",
+        "display_type": 0,
+        "is_recurring_subscription": "false",
+        "subs": [
+          {
+            "packageid": 261136,
+            "percent_savings_text": "-50% ",
+            "percent_savings": 0,
+            "option_text": "Untitled Goose Game - <span class=\"discount_original_price\">CDN$ 22.79</span> CDN$ 11.39",
+            "option_description": "",
+            "can_get_free_license": "0",
+            "is_free_license": false,
+            "price_in_cents_with_discount": 1139
+          }
+        ]
+      }
+    ],
+    "platforms": { "windows": true, "mac": true, "linux": false },
+    "metacritic": {
+      "score": 79,
+      "url": "https://www.metacritic.com/game/pc/untitled-goose-game?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [
+      { "id": 2, "description": "Single-player" },
+      { "id": 1, "description": "Multi-player" },
+      { "id": 9, "description": "Co-op" },
+      { "id": 39, "description": "Shared/Split Screen Co-op" },
+      { "id": 24, "description": "Shared/Split Screen" },
+      { "id": 22, "description": "Steam Achievements" },
+      { "id": 28, "description": "Full controller support" },
+      { "id": 23, "description": "Steam Cloud" },
+      { "id": 41, "description": "Remote Play on Phone" },
+      { "id": 42, "description": "Remote Play on Tablet" },
+      { "id": 43, "description": "Remote Play on TV" },
+      { "id": 44, "description": "Remote Play Together" }
+    ],
+    "genres": [
+      { "id": "1", "description": "Action" },
+      { "id": "23", "description": "Indie" }
+    ],
+    "screenshots": [
+      {
+        "id": 0,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_deb5b83b07d3f7c1050ea46b51117109da06952b.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_deb5b83b07d3f7c1050ea46b51117109da06952b.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 1,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_7576323f465966792d0fb021acf5a8a81a16e9f9.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_7576323f465966792d0fb021acf5a8a81a16e9f9.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 2,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_f77f22299e196a9e8e702bd36fbba9951a6c0a01.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_f77f22299e196a9e8e702bd36fbba9951a6c0a01.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 3,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_4f8a37c4fe9882876c891333dc2a76060a3e5652.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_4f8a37c4fe9882876c891333dc2a76060a3e5652.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 4,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_df679de6ce524a4d3c3d452a29593adbd88c38bb.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_df679de6ce524a4d3c3d452a29593adbd88c38bb.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 5,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_f85be4e268c984bcdec7c35138830fe1a7e50484.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_f85be4e268c984bcdec7c35138830fe1a7e50484.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 6,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_d468130acce4745c613402bf5c3923d904e1dca1.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_d468130acce4745c613402bf5c3923d904e1dca1.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 7,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_401d26ae8efe2eb0e7b784355c5253d6d3580b09.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_401d26ae8efe2eb0e7b784355c5253d6d3580b09.1920x1080.jpg?t=1687192333"
+      },
+      {
+        "id": 8,
+        "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_b16ae2206ddbb93646b383db84b606464398798f.600x338.jpg?t=1687192333",
+        "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/837470/ss_b16ae2206ddbb93646b383db84b606464398798f.1920x1080.jpg?t=1687192333"
+      }
+    ],
+    "movies": [
+      {
+        "id": 256800521,
+        "name": "Untitled Goose Game - Sept 2020 Update",
+        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256800521/movie.293x165.jpg?t=1600878491",
+        "webm": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256800521/movie480_vp9.webm?t=1600878491",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256800521/movie_max_vp9.webm?t=1600878491"
+        },
+        "mp4": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256800521/movie480.mp4?t=1600878491",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256800521/movie_max.mp4?t=1600878491"
+        },
+        "highlight": true
+      },
+      {
+        "id": 256777797,
+        "name": "Untitled Goose Game - Honk Trailer",
+        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256777797/movie.293x165.jpg?t=1583979680",
+        "webm": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256777797/movie480.webm?t=1583979680",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256777797/movie_max.webm?t=1583979680"
+        },
+        "mp4": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256777797/movie480.mp4?t=1583979680",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256777797/movie_max.mp4?t=1583979680"
+        },
+        "highlight": true
+      },
+      {
+        "id": 256777799,
+        "name": "Untitled Goose Game - Gameplay Trailer Redux",
+        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256777799/movie.293x165.jpg?t=1583979690",
+        "webm": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256777799/movie480.webm?t=1583979690",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256777799/movie_max.webm?t=1583979690"
+        },
+        "mp4": {
+          "480": "http://cdn.akamai.steamstatic.com/steam/apps/256777799/movie480.mp4?t=1583979690",
+          "max": "http://cdn.akamai.steamstatic.com/steam/apps/256777799/movie_max.mp4?t=1583979690"
+        },
+        "highlight": true
+      }
+    ],
+    "recommendations": { "total": 14071 },
+    "achievements": {
+      "total": 25,
+      "highlighted": [
+        {
+          "name": "A Secret Prize",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/8deaf2a12a50fa7d30b764242b004d8e407e596d.jpg"
+        },
+        {
+          "name": "The Garden",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/16c2bae0269b296ce911fa23ecfc32d76aff219c.jpg"
+        },
+        {
+          "name": "The High Street",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/a4abe1117863c41869bba056da128c97197f0d6b.jpg"
+        },
+        {
+          "name": "The Back Gardens",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/a9a7867cdb5e95072b73110400707242ab8aa718.jpg"
+        },
+        {
+          "name": "The Pub",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/c1b208fb152d2a11cae49bc7db3d983881dab396.jpg"
+        },
+        {
+          "name": "Thank you for playing our videogame",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/33541b58c86cc0958a258337896efb96201c263b.jpg"
+        },
+        {
+          "name": "Nasty",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/d03f22610e52bd72b26435450e53a6d4302dafbc.jpg"
+        },
+        {
+          "name": "Yummy",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/d62dcc02e15a43b6a331f3c8a9cc93fa4d382404.jpg"
+        },
+        {
+          "name": "Ghastly",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/b89d6f912804dc0ff4baf4d6abd5432f88506bff.jpg"
+        },
+        {
+          "name": "Noisy",
+          "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/837470/28a0402c5224bc5fb88c311a68ad91a725dce114.jpg"
+        }
+      ]
+    },
+    "release_date": { "coming_soon": false, "date": "23 Sep, 2020" },
+    "support_info": {
+      "url": "https://goose.game/support/",
+      "email": "support@goose.game"
+    },
+    "background": "https://cdn.akamai.steamstatic.com/steam/apps/837470/page_bg_generated_v6b.jpg?t=1687192333",
+    "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/837470/page_bg_generated.jpg?t=1687192333",
+    "content_descriptors": { "ids": [], "notes": null }
+  }
+]
