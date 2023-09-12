@@ -15,6 +15,7 @@ import {
   IonRouterLink,
   IonThumbnail,
   IonTitle,
+  isPlatform,
 } from "@ionic/react";
 
 import gamesJson from "../../data/games.json";
@@ -65,12 +66,14 @@ const DeveloperDetailsPage: React.FC = () => {
                 <IonCardTitle>{developer.name}</IonCardTitle>
               </IonCardContent>
             </IonCard>
+            {!isPlatform("hybrid") && (
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName={developer.professional_name}
+                options={{ height: 800 }}
+              />
+            )}
 
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName={developer.professional_name}
-              options={{ height: 800 }}
-            />
             <IonCard>
               <IonList>
                 <IonListHeader>
