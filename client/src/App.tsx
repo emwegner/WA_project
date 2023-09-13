@@ -84,7 +84,7 @@ const App: React.FC = () => (
             <HomePage />
           </Route>
           <Route exact path="/">
-            <Redirect to="/games" />
+            <Redirect to="/home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">

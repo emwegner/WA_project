@@ -1,3 +1,5 @@
+// src: https://stackoverflow.com/questions/48848964/configuring-cors-with-express-and-making-requests-on-the-front-end-with-axios
+// src: https://expressjs.com/en/starter/installing.html
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
